@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ccff; /* lilás */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .imagem-projeto {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 10px; 
+  }
+  
+  
+  section {
+    margin-bottom: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-weight: normal;
+  }
+  
+  .show {
+    opacity: 1;
+  }
+  
